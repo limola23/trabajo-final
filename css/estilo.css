@@ -1,385 +1,385 @@
-                            /* reseteo */
-                        
-                        * {
-                            margin: 0;
-                            padding: 0;
-                            box-sizing: border-box;
-                        }
-                        /* header*/
-                        
-                        nav ul li {
-                            display: inline-block;
-                        }
-                        
-                        .navbar-brand {
-                            font-family: 'Paytone One', sans-serif;
-                            padding: 0;
-                            color: #cbeb5a;
-                            font-size: 2.5rem;
-                            margin: 0px;
-                            text-align: left;
-                            padding-left: 10px;
-                        }
-                        
-                        a .navbar-brand {
-                            color: #cbeb5a;
-                        }
-                        
-                        .navbar-nav {
-                            padding-left: 50px;
-                        }
-                        
-                        nav ul li a .color {
-                            color: #cbeb5a;
-                        }
-                        
-                        nav ul li a {
-                            text-decoration: none;
-                            color: #cbeb5a;
-                            font-family: 'Readex Pro', sans-serif;
-                            font-size: 1.3rem;
-                            text-transform: uppercase;
-                            font-weight: bold;
-                            padding-left: 15px;
-                            padding-right: 15px;
-                        }
-                        
-                        nav ul li a:hover {
-                            color: #e2b536;
-                        }
-                        
-                        nav h1 a {
-                            text-decoration: none;
-                            color: #cbeb5a;
-                        }
-                        /*termina header*/
-                        /*footer*/
-                        
-                        footer {
-                            background-color: #c1ac46;
-                            font-family: 'Readex Pro', sans-serif;
-                        }
-                        
-                        footer ul {
-                            display: flex;
-                            justify-content: center;
-                        }
-                        
-                        footer ul li a {
-                            text-decoration: none;
-                            font-family: 'Readex Pro', sans-serif;
-                            font-size: 0.8rem;
-                            padding: 10px;
-                            color: #2C250B;
-                            text-transform: uppercase;
-                        }
-                        
-                        footer ul li {
-                            list-style-type: none;
-                        }
-                        
-                        footer a {
-                            text-decoration: none;
-                        }
-                        
-                        .redes {
-                            padding-left: 700px;
-                        }
-                        
-                        footer a img {
-                            padding-right: 10px;
-                        }
-                        
-                        footer ul li a:hover {
-                            color: #ecde98;
-                        }
-                        /*termina footer*/
-                        /*grids index*/
-                        
-                        main {
-                            background-color: #0f1409;
-                        }
-                        
-                        .featurette {
-                            padding-left: 70px;
-                            padding-right: 70px;
-                        }
-                        
-                        .featurette-divider {
-                            margin: 5rem 0;
-                            /* Space out the Bootstrap <hr> more */
-                        }
-                        /* Thin out the marketing headings */
-                        
-                        .featurette-heading {
-                            font-weight: 300;
-                            line-height: 1;
-                            /* rtl:remove */
-                            letter-spacing: -.05rem;
-                        }
-                        /*responsive featurette*/
-                        
-                        @media (min-width: 40em) {
-                            /* Bump up size of carousel content */
-                            .carousel-caption p {
-                                margin-bottom: 1.25rem;
-                                font-size: 1.25rem;
-                                line-height: 1.4;
+                                /* reseteo */
+                            
+                            * {
+                                margin: 0;
+                                padding: 0;
+                                box-sizing: border-box;
                             }
-                            .featurette-heading {
-                                font-size: 50px;
+                            /* header*/
+                            
+                            nav ul li {
+                                display: inline-block;
                             }
-                        }
-                        
-                        @media (min-width: 62em) {
-                            .featurette-heading {
-                                margin-top: 7rem;
-                            }
-                            /*end responsive featurette*/
-                            .grids {
-                                display: grid;
-                                grid-template-columns: 300px 300px 300px;
-                                grid-template-rows: 300px;
-                                justify-content: space-evenly;
-                                padding-bottom: 150px;
-                                padding-top: 100px;
-                            }
-                            .grids p {
-                                font-family: 'Oswald', sans-serif;
-                                text-align: center;
-                                color: #ecde98;
-                                font-size: 1.5rem;
-                                font-weight: 700;
-                                padding-bottom: 15px;
-                            }
-                            .grids img:hover {
-                                opacity: 0.5;
-                            }
-                            /*termina grids index*/
-                            /*empieza form*/
-                            .form {
-                                display: grid;
-                                grid-template-columns: 300px 300px;
-                                grid-template-rows: 180px;
-                                font-family: 'Oswald', sans-serif;
-                                text-align: center;
-                                color: #ecde98;
-                                justify-content: center;
-                                align-items: center;
-                            }
-                            .divFormDos {
-                                width: 100%;
-                            }
-                            section h1 {
-                                font-family: 'Oswald', sans-serif;
-                                color: #ecde98;
-                                padding-left: 180px;
-                                font-size: 3rem;
-                            }
-                            .contacto {
-                                background-color: #625723;
-                            }
-                            /*termina form contacto*/
-                            article {
-                                background-color: #0f1409;
-                                padding-left: 180px;
-                                padding-right: 180px;
-                                padding-top: 20px;
-                                padding-bottom: 50px;
-                                font-family: 'Oswald', sans-serif;
-                                color: #f5f1df;
-                                font-weight: 100;
-                                font-size: 1.1rem;
-                                text-align: justify;
-                            }
-                            /* cajas verdes grids*/
-                            aside .gridsAbajo {
-                                display: grid;
-                                grid-template-columns: 300px 300px 300px 300px;
-                                grid-template-rows: 200px;
-                                justify-content: space-around;
-                                padding-top: 30px;
-                            }
-                            .caja {
-                                background-color: #92b269;
-                            }
-                            /*termina cajas verdes grids*/
-                            /*img ubicación*/
-                            aside img {
-                                padding-left: 0px;
-                                opacity: 0.5;
-                            }
-                            /*grids domicilios*/
-                            .gridsDom {
-                                display: grid;
-                                grid-template-columns: 300px 300px 300px;
-                                grid-template-rows: 300px 300px 300px;
-                                padding-top: 50px;
-                                padding-left: 50px;
-                                justify-content: space-around;
-                            }
-                            .menu h1 {
-                                font-family: 'Oswald', sans-serif;
+                            
+                            .navbar-brand {
+                                font-family: 'Paytone One', sans-serif;
+                                padding: 0;
                                 color: #cbeb5a;
-                                padding-top: 200px;
-                                font-size: 3rem;
+                                font-size: 2.5rem;
+                                margin: 0px;
+                                text-align: left;
+                                padding-left: 10px;
+                            }
+                            
+                            a .navbar-brand {
+                                color: #cbeb5a;
+                            }
+                            
+                            .navbar-nav {
                                 padding-left: 50px;
                             }
-                            .menu h2 {
-                                font-family: 'Oswald', sans-serif;
-                                padding-left: 70px;
+                            
+                            nav ul li a .color {
+                                color: #cbeb5a;
+                            }
+                            
+                            nav ul li a {
+                                text-decoration: none;
+                                color: #cbeb5a;
+                                font-family: 'Readex Pro', sans-serif;
+                                font-size: 1.3rem;
                                 text-transform: uppercase;
-                                color: #f5f1df;
-                                font-size: 2rem;
+                                font-weight: bold;
+                                padding-left: 15px;
+                                padding-right: 15px;
                             }
-                            .gridsDomDos {
-                                display: grid;
-                                grid-template-columns: 300px 300px 300px;
-                                grid-template-rows: 300px 300px;
-                                padding-top: 50px;
-                                padding-left: 50px;
-                                justify-content: space-around;
+                            
+                            nav ul li a:hover {
+                                color: #e2b536;
                             }
-                            /*termina grids domicilios*/
-                            /*grids faq*/
-                            .faqGrids {
-                                display: grid;
-                                grid-template-columns: 900px;
-                                grid-template-rows: 200px 200px 200px 200px 200px 200px;
-                                padding-top: 200px;
-                                padding-bottom: 20px;
-                                row-gap: 1rem;
+                            
+                            nav h1 a {
+                                text-decoration: none;
+                                color: #cbeb5a;
+                            }
+                            /*termina header*/
+                            /*footer*/
+                            
+                            footer {
+                                background-color: #c1ac46;
+                                font-family: 'Readex Pro', sans-serif;
+                            }
+                            
+                            footer ul {
+                                display: flex;
                                 justify-content: center;
                             }
-                            .cajaFaq {
-                                background-color: #d5ddcb;
-                                opacity: 0.8;
-                            }
-                            .cajaFaq h3 {
-                                font-family: 'Oswald', sans-serif;
+                            
+                            footer ul li a {
+                                text-decoration: none;
+                                font-family: 'Readex Pro', sans-serif;
+                                font-size: 0.8rem;
+                                padding: 10px;
                                 color: #2C250B;
-                                text-align: center;
-                                padding-bottom: 7px;
-                                padding-left: 20px;
-                                padding-right: 40px;
-                                padding-top: 30px;
+                                text-transform: uppercase;
                             }
-                            .cajaFaq p {
-                                font-family: 'Oswald', sans-serif;
-                                color: #514e45;
-                                text-align: center;
-                                padding: 20px;
-                                padding-top: 5px;
+                            
+                            footer ul li {
+                                list-style-type: none;
                             }
-                            /*termina grids faq*/
-                            /*grids blog*/
-                            .blog h3 {
-                                font-family: 'Oswald', sans-serif;
-                                text-align: justify;
-                                padding-top: 200px;
-                                padding-bottom: 10px;
-                                padding-left: 300px;
-                                color: #f5f1df;
-                                font-size: 2rem;
+                            
+                            footer a {
+                                text-decoration: none;
                             }
-                            .blog h2 {
-                                font-family: 'Oswald', sans-serif;
-                                text-align: justify;
-                                color: #f5f1df;
-                                font-size: 2rem;
-                                padding-top: 10px;
-                                padding-left: 300px;
+                            
+                            .redes {
+                                padding-left: 700px;
                             }
-                            .blogGrids {
-                                display: grid;
-                                grid-template-columns: 300px 300px 300px;
-                                grid-template-rows: 300px 300px;
-                                padding-top: 50px;
-                                padding-bottom: 20px;
-                                row-gap: 2rem;
-                                column-gap: 1rem;
-                                justify-content: center;
+                            
+                            footer a img {
+                                padding-right: 10px;
                             }
-                            .recetas:hover {
-                                opacity: 0.5;
+                            
+                            footer ul li a:hover {
+                                color: #ecde98;
                             }
-                            .blogGridsDos {
-                                display: grid;
-                                grid-template-columns: 900px;
-                                grid-template-rows: 200px 200px 200px 200px 200px 200px 200px;
-                                row-gap: 2rem;
-                                justify-content: center;
-                                padding-top: 20px;
-                                padding-bottom: 30px;
-                                opacity: 0.8;
+                            /*termina footer*/
+                            /*grids index*/
+                            
+                            main {
+                                background-color: #0f1409;
                             }
-                            .market {
-                                background-color: #f5f1df;
-                                font-family: 'Oswald', sans-serif;
-                                text-align: justify;
-                                color: #514e45;
-                                padding-left: 50px;
-                                padding-top: 20px;
+                            
+                            .featurette {
+                                padding-left: 70px;
+                                padding-right: 70px;
                             }
-                            /*termina grids blog*/
-                            /*grids nosotros*/
-                            .usGrids {
-                                display: grid;
-                                grid-template-columns: 900px;
-                                grid-template-rows: 300px 70px 70px;
-                                padding-top: 50px;
-                                justify-content: center;
-                                row-gap: 3rem;
-                                justify-items: center;
-                                padding-bottom: 30px;
+                            
+                            .featurette-divider {
+                                margin: 5rem 0;
+                                /* Space out the Bootstrap <hr> more */
                             }
-                            .quienes h2 {
-                                font-family: 'Oswald', sans-serif;
-                                color: #f5f1df;
-                                padding-top: 200px;
-                                font-size: 2rem;
-                                padding-left: 200px;
+                            /* Thin out the marketing headings */
+                            
+                            .featurette-heading {
+                                font-weight: 300;
+                                line-height: 1;
+                                /* rtl:remove */
+                                letter-spacing: -.05rem;
                             }
-                            .quienes h3 {
-                                font-family: 'Oswald', sans-serif;
-                                color: #f5f1df;
-                                padding-top: 20px;
-                                font-size: 2rem;
-                                padding-left: 200px;
+                            /*responsive featurette*/
+                            
+                            @media (min-width: 40em) {
+                                /* Bump up size of carousel content */
+                                .carousel-caption p {
+                                    margin-bottom: 1.25rem;
+                                    font-size: 1.25rem;
+                                    line-height: 1.4;
+                                }
+                                .featurette-heading {
+                                    font-size: 50px;
+                                }
                             }
-                            .nosotros {
-                                font-family: 'Oswald', sans-serif;
-                                color: #e9ecde;
-                                font-size: 1.2rem;
-                                padding-top: 30px;
-                            }
-                            .usGridsDos {
-                                display: grid;
-                                grid-template-columns: 300px 300px 300px;
-                                grid-template-rows: 300px 300px;
-                                row-gap: 2rem;
-                                justify-content: center;
-                                opacity: 0.8;
-                                padding-bottom: 30px;
-                            }
-                            .somos:hover {
-                                opacity: 0.5;
-                            }
-                            .formWork {
-                                padding-top: 10px;
-                                font-family: 'Oswald', sans-serif;
-                                color: #f5f1df;
-                                padding-bottom: 30px;
-                                padding-left: 100px;
-                                padding-right: 100px;
-                            }
-                            .formDescription {
-                                font-family: 'Oswald', sans-serif;
-                                color: #f5f1df;
-                                padding-top: 180px;
-                            }
-                            /*media queries*/
-                            /*
+                            
+                            @media (min-width: 62em) {
+                                .featurette-heading {
+                                    margin-top: 7rem;
+                                }
+                                /*end responsive featurette*/
+                                .grids {
+                                    display: grid;
+                                    grid-template-columns: 300px 300px 300px;
+                                    grid-template-rows: 300px;
+                                    justify-content: space-evenly;
+                                    padding-bottom: 150px;
+                                    padding-top: 100px;
+                                }
+                                .grids p {
+                                    font-family: 'Oswald', sans-serif;
+                                    text-align: center;
+                                    color: #ecde98;
+                                    font-size: 1.5rem;
+                                    font-weight: 700;
+                                    padding-bottom: 15px;
+                                }
+                                .grids img:hover {
+                                    opacity: 0.5;
+                                }
+                                /*termina grids index*/
+                                /*empieza form*/
+                                .form {
+                                    display: grid;
+                                    grid-template-columns: 300px 300px;
+                                    grid-template-rows: 180px;
+                                    font-family: 'Oswald', sans-serif;
+                                    text-align: center;
+                                    color: #ecde98;
+                                    justify-content: center;
+                                    align-items: center;
+                                }
+                                .divFormDos {
+                                    width: 100%;
+                                }
+                                section h1 {
+                                    font-family: 'Oswald', sans-serif;
+                                    color: #ecde98;
+                                    padding-left: 180px;
+                                    font-size: 3rem;
+                                }
+                                .contacto {
+                                    background-color: #625723;
+                                }
+                                /*termina form contacto*/
+                                article {
+                                    background-color: #0f1409;
+                                    padding-left: 180px;
+                                    padding-right: 180px;
+                                    padding-top: 20px;
+                                    padding-bottom: 50px;
+                                    font-family: 'Oswald', sans-serif;
+                                    color: #f5f1df;
+                                    font-weight: 100;
+                                    font-size: 1.1rem;
+                                    text-align: justify;
+                                }
+                                /* cajas verdes grids*/
+                                aside .gridsAbajo {
+                                    display: grid;
+                                    grid-template-columns: 300px 300px 300px 300px;
+                                    grid-template-rows: 200px;
+                                    justify-content: space-around;
+                                    padding-top: 30px;
+                                }
+                                .caja {
+                                    background-color: #92b269;
+                                }
+                                /*termina cajas verdes grids*/
+                                /*img ubicación*/
+                                aside img {
+                                    padding-left: 0px;
+                                    opacity: 0.5;
+                                }
+                                /*grids domicilios*/
+                                .gridsDom {
+                                    display: grid;
+                                    grid-template-columns: 300px 300px 300px;
+                                    grid-template-rows: 300px 300px 300px;
+                                    padding-top: 50px;
+                                    padding-left: 50px;
+                                    justify-content: space-around;
+                                }
+                                .menu h1 {
+                                    font-family: 'Oswald', sans-serif;
+                                    color: #cbeb5a;
+                                    padding-top: 200px;
+                                    font-size: 3rem;
+                                    padding-left: 50px;
+                                }
+                                .menu h2 {
+                                    font-family: 'Oswald', sans-serif;
+                                    padding-left: 70px;
+                                    text-transform: uppercase;
+                                    color: #f5f1df;
+                                    font-size: 2rem;
+                                }
+                                .gridsDomDos {
+                                    display: grid;
+                                    grid-template-columns: 300px 300px 300px;
+                                    grid-template-rows: 300px 300px;
+                                    padding-top: 50px;
+                                    padding-left: 50px;
+                                    justify-content: space-around;
+                                }
+                                /*termina grids domicilios*/
+                                /*grids faq*/
+                                .faqGrids {
+                                    display: grid;
+                                    grid-template-columns: 900px;
+                                    grid-template-rows: 200px 200px 200px 200px 200px 200px;
+                                    padding-top: 200px;
+                                    padding-bottom: 20px;
+                                    row-gap: 1rem;
+                                    justify-content: center;
+                                }
+                                .cajaFaq {
+                                    background-color: #d5ddcb;
+                                    opacity: 0.8;
+                                }
+                                .cajaFaq h3 {
+                                    font-family: 'Oswald', sans-serif;
+                                    color: #2C250B;
+                                    text-align: center;
+                                    padding-bottom: 7px;
+                                    padding-left: 20px;
+                                    padding-right: 40px;
+                                    padding-top: 30px;
+                                }
+                                .cajaFaq p {
+                                    font-family: 'Oswald', sans-serif;
+                                    color: #514e45;
+                                    text-align: center;
+                                    padding: 20px;
+                                    padding-top: 5px;
+                                }
+                                /*termina grids faq*/
+                                /*grids blog*/
+                                .blog h3 {
+                                    font-family: 'Oswald', sans-serif;
+                                    text-align: justify;
+                                    padding-top: 200px;
+                                    padding-bottom: 10px;
+                                    padding-left: 300px;
+                                    color: #f5f1df;
+                                    font-size: 2rem;
+                                }
+                                .blog h2 {
+                                    font-family: 'Oswald', sans-serif;
+                                    text-align: justify;
+                                    color: #f5f1df;
+                                    font-size: 2rem;
+                                    padding-top: 10px;
+                                    padding-left: 300px;
+                                }
+                                .blogGrids {
+                                    display: grid;
+                                    grid-template-columns: 300px 300px 300px;
+                                    grid-template-rows: 300px 300px;
+                                    padding-top: 50px;
+                                    padding-bottom: 20px;
+                                    row-gap: 2rem;
+                                    column-gap: 1rem;
+                                    justify-content: center;
+                                }
+                                .recetas:hover {
+                                    opacity: 0.5;
+                                }
+                                .blogGridsDos {
+                                    display: grid;
+                                    grid-template-columns: 900px;
+                                    grid-template-rows: 200px 200px 200px 200px 200px 200px 200px;
+                                    row-gap: 2rem;
+                                    justify-content: center;
+                                    padding-top: 20px;
+                                    padding-bottom: 30px;
+                                    opacity: 0.8;
+                                }
+                                .market {
+                                    background-color: #f5f1df;
+                                    font-family: 'Oswald', sans-serif;
+                                    text-align: justify;
+                                    color: #514e45;
+                                    padding-left: 50px;
+                                    padding-top: 20px;
+                                }
+                                /*termina grids blog*/
+                                /*grids nosotros*/
+                                .usGrids {
+                                    display: grid;
+                                    grid-template-columns: 900px;
+                                    grid-template-rows: 300px 70px 70px;
+                                    padding-top: 50px;
+                                    justify-content: center;
+                                    row-gap: 3rem;
+                                    justify-items: center;
+                                    padding-bottom: 30px;
+                                }
+                                .quienes h2 {
+                                    font-family: 'Oswald', sans-serif;
+                                    color: #f5f1df;
+                                    padding-top: 200px;
+                                    font-size: 2rem;
+                                    padding-left: 200px;
+                                }
+                                .quienes h3 {
+                                    font-family: 'Oswald', sans-serif;
+                                    color: #f5f1df;
+                                    padding-top: 20px;
+                                    font-size: 2rem;
+                                    padding-left: 200px;
+                                }
+                                .nosotros {
+                                    font-family: 'Oswald', sans-serif;
+                                    color: #e9ecde;
+                                    font-size: 1.2rem;
+                                    padding-top: 30px;
+                                }
+                                .usGridsDos {
+                                    display: grid;
+                                    grid-template-columns: 300px 300px 300px;
+                                    grid-template-rows: 300px 300px;
+                                    row-gap: 2rem;
+                                    justify-content: center;
+                                    opacity: 0.8;
+                                    padding-bottom: 30px;
+                                }
+                                .somos:hover {
+                                    opacity: 0.5;
+                                }
+                                .formWork {
+                                    padding-top: 10px;
+                                    font-family: 'Oswald', sans-serif;
+                                    color: #f5f1df;
+                                    padding-bottom: 30px;
+                                    padding-left: 100px;
+                                    padding-right: 100px;
+                                }
+                                .formDescription {
+                                    font-family: 'Oswald', sans-serif;
+                                    color: #f5f1df;
+                                    padding-top: 180px;
+                                }
+                                /*media queries*/
+                                /*
 @media screen and (min-width:320px) {
     .grids {
         grid-template-columns: 300px 300px;
